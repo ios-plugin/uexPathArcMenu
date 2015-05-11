@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D617F1A49C7FD0073E196 /* EUExPathArcMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840D617E1A49C7FD0073E196 /* EUExPathArcMenu.h */; };
+		840D61811A49C7FD0073E196 /* EUExPathArcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D61801A49C7FD0073E196 /* EUExPathArcMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		842198CF1A4E8DA400E50826 /* EuexArcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 842198C81A4E8DA400E50826 /* EuexArcMenu.m */; };
+		842198D01A4E8DA400E50826 /* EuexArcMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 842198CA1A4E8DA400E50826 /* EuexArcMenuItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840D61791A49C7FD0073E196 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				840D617F1A49C7FD0073E196 /* EUExPathArcMenu.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		840D617B1A49C7FD0073E196 /* libuexPathArcMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexPathArcMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D617E1A49C7FD0073E196 /* EUExPathArcMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExPathArcMenu.h; sourceTree = "<group>"; };
+		840D61801A49C7FD0073E196 /* EUExPathArcMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExPathArcMenu.m; sourceTree = "<group>"; };
+		842198C11A4E8D9100E50826 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		842198C21A4E8D9100E50826 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		842198C31A4E8D9100E50826 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		842198C71A4E8DA400E50826 /* EuexArcMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuexArcMenu.h; sourceTree = "<group>"; };
+		842198C81A4E8DA400E50826 /* EuexArcMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuexArcMenu.m; sourceTree = "<group>"; };
+		842198C91A4E8DA400E50826 /* EuexArcMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuexArcMenuItem.h; sourceTree = "<group>"; };
+		842198CA1A4E8DA400E50826 /* EuexArcMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuexArcMenuItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840D61781A49C7FD0073E196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840D61721A49C7FD0073E196 = {
+			isa = PBXGroup;
+			children = (
+				840D617D1A49C7FD0073E196 /* EUExPathArcMenu */,
+				840D617C1A49C7FD0073E196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840D617C1A49C7FD0073E196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840D617B1A49C7FD0073E196 /* libuexPathArcMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840D617D1A49C7FD0073E196 /* EUExPathArcMenu */ = {
+			isa = PBXGroup;
+			children = (
+				840D617E1A49C7FD0073E196 /* EUExPathArcMenu.h */,
+				840D61801A49C7FD0073E196 /* EUExPathArcMenu.m */,
+				842198C61A4E8DA400E50826 /* sourceCode */,
+				842198C01A4E8D9100E50826 /* engineHeader */,
+				842198D51A4E8E5400E50826 /* framework */,
+			);
+			path = EUExPathArcMenu;
+			sourceTree = "<group>";
+		};
+		842198C01A4E8D9100E50826 /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				842198C11A4E8D9100E50826 /* EUExBase.h */,
+				842198C21A4E8D9100E50826 /* EUExBaseDefine.h */,
+				842198C31A4E8D9100E50826 /* EUtility.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		842198C61A4E8DA400E50826 /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				842198C71A4E8DA400E50826 /* EuexArcMenu.h */,
+				842198C81A4E8DA400E50826 /* EuexArcMenu.m */,
+				842198C91A4E8DA400E50826 /* EuexArcMenuItem.h */,
+				842198CA1A4E8DA400E50826 /* EuexArcMenuItem.m */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		842198D51A4E8E5400E50826 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840D617A1A49C7FD0073E196 /* EUExPathArcMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D618F1A49C7FE0073E196 /* Build configuration list for PBXNativeTarget "EUExPathArcMenu" */;
+			buildPhases = (
+				840D61771A49C7FD0073E196 /* Sources */,
+				840D61781A49C7FD0073E196 /* Frameworks */,
+				840D61791A49C7FD0073E196 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExPathArcMenu;
+			productName = EUExPathArcMenu;
+			productReference = 840D617B1A49C7FD0073E196 /* libuexPathArcMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840D61731A49C7FD0073E196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zywx;
+				TargetAttributes = {
+					840D617A1A49C7FD0073E196 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 840D61761A49C7FD0073E196 /* Build configuration list for PBXProject "EUExPathArcMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840D61721A49C7FD0073E196;
+			productRefGroup = 840D617C1A49C7FD0073E196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840D617A1A49C7FD0073E196 /* EUExPathArcMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840D61771A49C7FD0073E196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842198CF1A4E8DA400E50826 /* EuexArcMenu.m in Sources */,
+				840D61811A49C7FD0073E196 /* EUExPathArcMenu.m in Sources */,
+				842198D01A4E8DA400E50826 /* EuexArcMenuItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		840D618D1A49C7FE0073E196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840D618E1A49C7FE0073E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840D61901A49C7FE0073E196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPathArcMenu";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExPathArcMenu/engineHeader",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPathArcMenu;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		840D61911A49C7FE0073E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPathArcMenu";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExPathArcMenu/engineHeader",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPathArcMenu;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840D61761A49C7FD0073E196 /* Build configuration list for PBXProject "EUExPathArcMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D618D1A49C7FE0073E196 /* Debug */,
+				840D618E1A49C7FE0073E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D618F1A49C7FE0073E196 /* Build configuration list for PBXNativeTarget "EUExPathArcMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D61901A49C7FE0073E196 /* Debug */,
+				840D61911A49C7FE0073E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840D61731A49C7FD0073E196 /* Project object */;
+}
